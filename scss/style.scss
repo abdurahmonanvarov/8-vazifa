@@ -1,0 +1,28 @@
+@import '_fonts.scss';
+@import '_normalize.scss';
+@import '_header.scss';
+@import '_main.scss';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+%buttonstyle{
+    border: none;
+    width: 260px;
+    height: 60px;
+    background-color: #AE7B3C;
+    padding: 22px 56px;
+    box-shadow: 0 20 25 rgba(0, 0, 0, 0.051);
+    color: #FFFFFF;
+    font-weight: 700px;
+    font-size: 1em;
+    :hover{
+        background-color: #8b602a;
+    }
+}
+.continer{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}

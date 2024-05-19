@@ -1,0 +1,67 @@
+.header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'Raleway';
+}
+.continer__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logotib{
+        width: 122px;
+        height: 53px;
+        cursor: pointer;
+    }
+    .header__link ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        cursor: pointer;
+        font-family: 'Raleway';
+        font-weight: 500px;
+        color: #282B22;
+        a{
+            transition: all 0.5s;
+        }
+        :hover{
+            color: #AE7B3C;
+        }
+    }
+    .header__icon{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 63px;
+        .icon__icons{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+        .icon__phone{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 7px;
+            span{
+                cursor: pointer;
+                font-family: 'Lato';
+                font-weight: 20px;
+                font-weight: 600px;
+                color: #3D4A39;
+            }
+            img{
+                width: 22px;
+                height: 22px;
+            }
+        }
+    }
+}
